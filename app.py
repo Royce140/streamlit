@@ -28,7 +28,7 @@ st.set_page_config(page_title='Sentiment Analyzer',layout='centered', initial_si
 
 
 #def local_css(file_name):
-    """ Method for reading styles.css and applying necessary changes to HTML"""
+    #""" Method for reading styles.css and applying necessary changes to HTML"""
     #with open(file_name) as f:
         #st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
@@ -107,13 +107,14 @@ def main():
                         st.write('Predicted sentiment: Positive')
     if choice2=='Homepage':
         #st.markdown('<h2 style="color:white;" align="center">Sentiment Analysis of Hindi Movie Reviews</h2>', unsafe_allow_html=True)
+        st.markdown('<p style=" color:white; font-size: 35px;">Sentiment Analysis of Hindi Movie Reviews</p>', unsafe_allow_html=True)
         #st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHcPmimTJL2f4KBVmtG3QPYjHgVVGDoywevA&usqp=CAU
         st.markdown(
                 """
                 <style>
                 .reportview-container {
-                    background: url("https://miro.medium.com/max/1400/1*PFI22lMXZFyPpM3wm-IzeQ.jpeg");
-                    background-size: 120% 100%;
+                    background: url("https://media.sproutsocial.com/uploads/2019/03/sentiment-analysis.svg");
+                    background-size: 125% 109%;
                     background-repeat: no-repeat;
                     
                     }
