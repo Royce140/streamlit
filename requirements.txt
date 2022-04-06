@@ -2,4 +2,3 @@ scikit-learn==1.0.2
 streamlit
 numpy
 pandas
-pickle
