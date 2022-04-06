@@ -113,7 +113,8 @@ def main():
                 """
                 <style>
                 .reportview-container {
-                    background: url("https://media.sproutsocial.com/uploads/2019/03/sentiment-analysis.svg");
+                    #background: url("https://media.sproutsocial.com/uploads/2019/03/sentiment-analysis.svg");
+                    #background: url("/models/images.png");
                     background-size: 125% 109%;
                     background-repeat: no-repeat;
                     
