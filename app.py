@@ -37,7 +37,7 @@ def main():
     #local_css("css/styles.css")
     
     st.set_option('deprecation.showfileUploaderEncoding', False)
-    activities2 = ["Homepage","Analyzer"]
+    activities2 = ["Analyzer"]
     st.sidebar.markdown("# Model?")
     choice2 = st.sidebar.selectbox("Choose among the given options:", activities2)
 
@@ -105,27 +105,6 @@ def main():
                         st.write('Predicted sentiment: Negative')
                     else:
                         st.write('Predicted sentiment: Positive')
-    if choice2=='Homepage':
-        #st.markdown('<h2 style="color:white;" align="center">Sentiment Analysis of Hindi Movie Reviews</h2>', unsafe_allow_html=True)
-        st.markdown('<p style=" color:white; font-size: 35px;">Sentiment Analysis of Hindi Movie Reviews</p>', unsafe_allow_html=True)
-        #st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHcPmimTJL2f4KBVmtG3QPYjHgVVGDoywevA&usqp=CAU
-        st.markdown(
-                """
-                <style>
-                .reportview-container {
-                    #background: url("https://media.sproutsocial.com/uploads/2019/03/sentiment-analysis.svg");
-                    #background: url("/models/images.png");
-                    background-size: 125% 109%;
-                    background-repeat: no-repeat;
-                    
-                    }
-                .sidebar{
-                background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvkBtWCfjJ4xVqGIltIy8koeOoMZeU4d4dcQ&usqp=CAU");
-                }
-                </style>
-                """,
-                unsafe_allow_html=True
-                    )   
     
 
 
