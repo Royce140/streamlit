@@ -27,14 +27,14 @@ from sklearn.linear_model import LogisticRegression
 st.set_page_config(page_title='Sentiment Analyzer',layout='centered', initial_sidebar_state='expanded')
 
 
-def local_css(file_name):
+#def local_css(file_name):
     """ Method for reading styles.css and applying necessary changes to HTML"""
-    with open(file_name) as f:
-        st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
+    #with open(file_name) as f:
+        #st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 
 def main():
-    local_css("css/styles.css")
+    #local_css("css/styles.css")
     
     st.set_option('deprecation.showfileUploaderEncoding', False)
     activities2 = ["Homepage","Analyzer"]
